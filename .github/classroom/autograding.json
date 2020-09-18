@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Two Averages",
+      "setup": "make -C level1_stats clean all",
+      "run": "level1_stats/test_two_averages",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Array Averages",
+      "setup": "make -C level1_stats clean all",
+      "run": "level1_stats/test_array_averages",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Time Assign",
+      "setup": "make -C level2_time clean all",
+      "run": "level2_time/test_time_assign",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Time Diff",
+      "setup": "make -C level2_time clean all",
+      "run": "level2_time/test_time_diff",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "String Length",
+      "setup": "make -C level3_strings clean all",
+      "run": "level3_strings/test_string_length",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "String Copy",
+      "setup": "make -C level3_strings clean all",
+      "run": "level3_strings/test_string_copy",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
